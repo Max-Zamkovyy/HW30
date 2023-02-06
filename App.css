@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 20px;
+position: absolute;
+width: 354px;
+height: 362px;
+left: 20px;
+top: 20px;
+background: #6ba9b1;
+border-radius: 16px;
+border: 1px;
+border-color: blue;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 354px;
+  height: 170px;
+  border-radius: 10px;
+}
+
+.level {
+  padding: 1px 8px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  right: 310px;
+  top: 150px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 0px 6px;
+}
+
+.level-one {
+  font-family: 'Plus Jakarta Display';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 150%;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 354px;
+  height: 132px;
+}
+
+.title {
+  width: 354px;
+  height: 54px;
+  font-family: 'Plus Jakarta Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #141522;
+}
+
+.kurs-info {
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 10px;
+width: 354px;
+height: 30px;
+}
+
+.info {
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 72px;
+width: 354px;
+height: 28px;
+}
